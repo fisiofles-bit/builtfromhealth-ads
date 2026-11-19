@@ -132,6 +132,24 @@
     body{padding-bottom:80px}
   }
 </style>
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1451714339648290');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1451714339648290&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
 </head>
 <body id="top">
 
@@ -162,10 +180,10 @@
     </div>
     <p class="micro">Sin compromiso · Solo 6 plazas nuevas al mes</p>
 
-    <a class="video" href="https://www.youtube.com/watch?v=vBnMpQ-1rVA" target="_blank" rel="noopener">
+    <div class="video" onclick="loadVid(this,'vBnMpQ-1rVA')">
       <img src="https://i.ytimg.com/vi/vBnMpQ-1rVA/hqdefault.jpg" alt="Vídeo principal Built From Health" loading="lazy">
       <div class="play"><span>▶</span></div>
-    </a>
+    </div>
   </div>
 </section>
 
@@ -193,27 +211,27 @@
     <p class="lead" style="margin-top:12px">Escucha a quienes pasaron por lo mismo que tú.</p>
     <div class="grid g3" style="margin-top:32px">
       <div class="surface tcard">
-        <a class="video" style="margin:0;border-radius:0;max-width:none" href="https://www.youtube.com/watch?v=2iffsyyFj7Y" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/2iffsyyFj7Y/hqdefault.jpg" alt="" loading="lazy"><div class="play"><span>▶</span></div></a>
+        <div class="video" style="margin:0;border-radius:0;max-width:none" onclick="loadVid(this,'2iffsyyFj7Y')"><img src="https://i.ytimg.com/vi/2iffsyyFj7Y/hqdefault.jpg" alt="" loading="lazy"><div class="play"><span>▶</span></div></div>
         <div class="body"><span class="tag blue">Vuelta a la competición</span><h4>Fer Bravo · Jugador U-17 en Canadá</h4><p class="q">Ningún especialista se centraba en fútbol. Empecé con Fabián y ahora ya entreno con el equipo, a punto de volver a jugar.</p></div>
       </div>
       <div class="surface tcard">
-        <a class="video" style="margin:0;border-radius:0;max-width:none" href="https://www.youtube.com/watch?v=5MDl9TScbJc" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/5MDl9TScbJc/hqdefault.jpg" alt="" loading="lazy"><div class="play"><span>▶</span></div></a>
+        <div class="video" style="margin:0;border-radius:0;max-width:none" onclick="loadVid(this,'5MDl9TScbJc')"><img src="https://i.ytimg.com/vi/5MDl9TScbJc/hqdefault.jpg" alt="" loading="lazy"><div class="play"><span>▶</span></div></div>
         <div class="body"><span class="tag blue">De vuelta</span><h4>Julio Alegría · Militar</h4><p class="q">A pesar de la distancia y el horario, nunca pensé que un proceso online fuera más personalizado que el presencial. 5 meses después, el avance es brutal.</p></div>
       </div>
       <div class="surface tcard">
-        <a class="video" style="margin:0;border-radius:0;max-width:none" href="https://www.youtube.com/watch?v=7g0IpiBmu2A" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/7g0IpiBmu2A/hqdefault.jpg" alt="" loading="lazy"><div class="play"><span>▶</span></div></a>
+        <div class="video" style="margin:0;border-radius:0;max-width:none" onclick="loadVid(this,'7g0IpiBmu2A')"><img src="https://i.ytimg.com/vi/7g0IpiBmu2A/hqdefault.jpg" alt="" loading="lazy"><div class="play"><span>▶</span></div></div>
         <div class="body"><span class="tag amber">Vuelta progresiva</span><h4>María Cuenca · Futbolista Preferente</h4><p class="q">Empecé a trabajar desde el primer momento. Siento que están pendientes de mí 24 horas y, aunque no sea rápido, avanzo como debo.</p></div>
       </div>
       <div class="surface tcard">
-        <a class="video" style="margin:0;border-radius:0;max-width:none" href="https://www.youtube.com/watch?v=3G2K60OndCg" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/3G2K60OndCg/hqdefault.jpg" alt="" loading="lazy"><div class="play"><span>▶</span></div></a>
+        <div class="video" style="margin:0;border-radius:0;max-width:none" onclick="loadVid(this,'3G2K60OndCg')"><img src="https://i.ytimg.com/vi/3G2K60OndCg/hqdefault.jpg" alt="" loading="lazy"><div class="play"><span>▶</span></div></div>
         <div class="body"><span class="tag blue">Trabajo previo</span><h4>Dani Duque · Juvenil 3ª Catalana</h4><p class="q">Me ha ayudado a confiar en mí: me explica muy bien todo el trabajo. Así hemos conseguido trabajar en campo antes de volver.</p></div>
       </div>
       <div class="surface tcard">
-        <a class="video" style="margin:0;border-radius:0;max-width:none" href="https://www.youtube.com/watch?v=VBqV0pn2Bo0" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/VBqV0pn2Bo0/hqdefault.jpg" alt="" loading="lazy"><div class="play"><span>▶</span></div></a>
+        <div class="video" style="margin:0;border-radius:0;max-width:none" onclick="loadVid(this,'VBqV0pn2Bo0')"><img src="https://i.ytimg.com/vi/VBqV0pn2Bo0/hqdefault.jpg" alt="" loading="lazy"><div class="play"><span>▶</span></div></div>
         <div class="body"><span class="tag blue">De vuelta</span><h4>Joel Parrales · 3ª Catalana</h4><p class="q">No veía ninguna salida. En el programa sé desde el minuto 0 por dónde ir. Lo que más destaco es su compañerismo y la búsqueda del bienestar.</p></div>
       </div>
       <div class="surface tcard">
-        <a class="video" style="margin:0;border-radius:0;max-width:none" href="https://www.youtube.com/watch?v=bPAdgREbscg" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/bPAdgREbscg/hqdefault.jpg" alt="" loading="lazy"><div class="play"><span>▶</span></div></a>
+        <div class="video" style="margin:0;border-radius:0;max-width:none" onclick="loadVid(this,'bPAdgREbscg')"><img src="https://i.ytimg.com/vi/bPAdgREbscg/hqdefault.jpg" alt="" loading="lazy"><div class="play"><span>▶</span></div></div>
         <div class="body"><span class="tag green">Rendimiento</span><h4>Estra · Jugador de 3ª RFEF</h4><p class="q">13 meses después de parar, juego al 100%. Ahora estamos preparando la siguiente temporada.</p></div>
       </div>
     </div>
